@@ -1,0 +1,19 @@
+Description
+Task
+In this assignment we have data about online hotel reservations (train dataset). A number of reservations are called-off due to cancellations or no-shows for any reason.
+
+Can you predict if the customer is going to honor the reservation or cancel it?
+
+More specifically,
+
+build a model to predict booking_status using xgboost.XGBClassifier
+use data transformations/encoding and hyperparameters of the model to obtain best results possible while keeping the number of predictors reasonably low
+to keep the number of predictors low you should assess their strength and explore if they add some value to the model
+use the test dataset to compute predictions and submit your results
+Expected outcomes
+Until the competition deadline you are supposed to
+* Submit solution in this competition
+
+Send either .py or .ipynb file with working (and reasonably readable and commented) code that leads to the prediction to tybl@karlin.mff.cuni.cz.
+The code has to be runnable and it should be clear how you obtained the final predictions and how you assessed used predictors (why you dropped the predictors you dropped and why you used the predictors you used)
+Send the script zipped and named as DS2_24_HW1_XXX.zip, where XXX is the name of your team in this Kaggle competition. Use the same naming convention for the script and for the mail subject. Clearly indicate your names in the body of the mail.
